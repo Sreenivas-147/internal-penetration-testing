@@ -1,0 +1,35 @@
+Here's the content for your `tools_used.txt` file:
+
+---
+
+**Tools Used in Internal Penetration Testing Project**
+
+1. **Netdiscover**
+
+   * Used for active network reconnaissance to identify live hosts on the local subnet.
+
+2. **Nmap**
+
+   * Used for comprehensive port scanning and service enumeration.
+   * Command used:
+     `nmap -sV -sC -Pn -p- <target_ip>`
+
+3. **FTP Client (Linux default: ftp)**
+
+   * Used to manually connect to the FTP service for enumeration and login attempts.
+
+4. **Metasploit Framework**
+
+   * Used to exploit ProFTPD 1.3.3c vulnerability (CVE-2010-4221) using a reverse shell payload.
+   * Module used:
+     `exploit/unix/ftp/proftpd_133c_backdoor`
+   * Payload used:
+     `cmd/unix/reverse`
+
+5. **Linux Terminal Utilities**
+
+   * Commands like `whoami`, `uname -a`, and `ls /` were used during post-exploitation enumeration.
+
+---
+
+You can save this content as a file named `tools_used.txt` and include it in your GitHub repo. If you want a downloadable version, I can generate it for you.
